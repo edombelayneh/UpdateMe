@@ -1,68 +1,125 @@
-# UpdateMe – Capstone iOS App
+# UpdateMe
+
+## Table of Contents
+- [Overview](#overview)
+- [Product Spec](#product-spec)
+- [Wireframes](#wireframes)
+- [Schema](#schema)
+
+---
 
 ## Overview
-UpdateMe is a personal relationship-support app designed for people who want to stay emotionally connected while being physically apart. It helps maintain consistent communication through pre-scheduled updates and quick status taps, making it easier to check in, especially when you're busy or trying to stay present with others.
 
-This app is inspired by my experience in a long-distance relationship and the cultural value of being present and respectful during in-person interactions.
+### Description
+UpdateMe is an iOS app designed for people in long-distance relationships who want to stay connected without being glued to their phones. The app enables users to send quick one-tap status updates, schedule auto-messages (like "Good morning" or "I made it home"), and view their partner's recent check-ins—all while respecting real-world social presence.
 
-## Problem Statement
-When you're raised to avoid being on your phone in front of others, it can feel inappropriate to text someone, even when they expect updates. UpdateMe allows users to keep their loved ones informed without disrupting real-world social settings.
+### App Evaluation
 
-## Target Users
-- Long-distance couples
-- Busy professionals or interns
-- People in different time zones
-- Users from cultures where frequent texting is discouraged
+- **Category:** Social / Lifestyle
+- **Mobile:** This app is primarily for mobile use and is built natively using Swift, UIKit, and Storyboards.
+- **Story:** The user opens the app to quickly send an update, check their partner's recent activity, or schedule future check-ins.
+- **Market:** Ideal for couples, close friends, or family members in different locations or time zones.
+- **Habit:** The app encourages consistent but low-effort engagement, forming daily habits like morning/night check-ins.
+- **Scope:** While simple at its core, it has room for expansion with features like mood updates, audio messages, or shared journals.
 
-## Core Features (MVP)
-- Auto-scheduled updates (e.g., morning and night messages)
-- One-tap quick status updates (e.g., "At work", "Can't talk now")
-- Partner profile with recent update activity
+---
 
-## Stretch Features
-- Mood slider or emoji-based mood updates
-- Audio message recording
-- Countdown widget showing time until next meeting
-- Shared journal or message board
-- Outfit suggestion tool 
+## Product Spec
 
-## Current Progress (Week 9)
-- App icon finalized
-- Initial UI screens built (Home, Status, Partner Profile)
-- Partner profile mockup created
-- Toggle-based auto-update scheduler implemented
-- Local storage using JSON functioning for schedule and updates
+### 1. User Stories
 
-Screenshots and wireframes can be found in the wireframes folder.  
+#### ✅ Required Must-have Stories
+- User can schedule auto-updates (e.g., “Good morning” at 8 AM)
+- User can send one-tap status updates (e.g., “At work”)
+- User can view a feed of their recent updates
+- Partner profile displays recent updates and availability status
+- Local data is saved and persists across sessions
+- Users can create, edit, or delete custom schedules
 
-## Technologies Used
-- Swift and UIKit
-- Storyboard for UI
-- CoreLocation (optional)
-- UserDefaults for local data persistence
-- JSON for file-based storage
+#### ⭐ Optional Nice-to-have Stories
+- Mood slider to quickly express how the user feels
+- Audio message support (record and send)
+- Shared countdown timer to next meetup
+- Outfit suggestion feature for hangouts (from Fashion AI idea)
+- Interactive notifications (respond from lock screen)
 
-## Sprint Plan Summary
+---
 
-| Sprint       | Goals                                             |
-|--------------|---------------------------------------------------|
-| Sprint 1     | Project setup, app icon, basic UI screens         |
-| Sprint 2     | Build Home screen with status update functionality |
-| Sprint 3     | Implement Schedule tab and auto-updates           |
-| Sprint 4     | Partner Profile screen and local storage features |
+### 2. Screen Archetypes
 
-Details available in `sprint-planning.md`.
+- **Home Screen**
+  - [x] One-tap status update buttons
+  - [x] List of recent updates
 
-## How to Run
-1. Clone the repository
-2. Open the `.xcodeproj` file in Xcode
-3. Build and run on iOS Simulator (recommended: iPhone 15 or higher)
-4. Navigate through the app features using simulated input
+- **Schedule Screen**
+  - [x] Create/edit custom auto-updates
+  - [x] View all scheduled items
+  - [x] Enable/disable toggle for visibility
 
-## Author
-**Edom Belayneh**  
-Computer Science @ Central Michigan University  
-LinkedIn: [linkedin.com/in/edombelayneh](https://linkedin.com/in/edombelayneh)  
-GitHub: [github.com/edombelayneh](https://github.com/edombelayneh)  
-Portfolio: [edombelayneh.com](https://www.edombelayneh.com)
+- **Partner Profile**
+  - [x] View partner’s status and last update
+  - [x] Color-coded status circle (busy, idle, free)
+
+- **Onboarding/Welcome (future)**
+  - [ ] Option to link with partner account
+  - [ ] App setup and permissions
+
+---
+
+### 3. Navigation
+
+#### Tab Navigation (Tab to Screen)
+- Home → Home screen with status buttons
+- Schedule → Custom update scheduler
+- Profile → Partner profile view
+
+#### Flow Navigation (Screen to Screen)
+- Home → View detailed update history (future)
+- Schedule → Add/Edit update
+- Partner Profile → Mood slider (stretch feature)
+
+---
+
+## Wireframes
+
+### 📸 Hand-Drawn Wireframes
+(Include your hand-drawn wireframe images in this section. Example below:)
+
+![Home Screen Wireframe](./wireframes/home.png)
+![Schedule Wireframe](./wireframes/schedule.png)
+![Partner Profile Wireframe](./wireframes/profile.png)
+
+### [BONUS] Digital Wireframes & Mockups
+(Insert screenshots of your Xcode Storyboard or Figma mockups if any.)
+
+---
+
+## Schema
+
+*This section will be completed in Unit 9, but here's a draft to get started.*
+
+### Models
+
+#### Update
+| Property     | Type    | Description                    |
+|--------------|---------|--------------------------------|
+| id           | String  | Unique identifier              |
+| message      | String  | Content of update              |
+| time         | String  | Time to send the update        |
+| isAuto       | Bool    | Whether it was auto-sent       |
+| isVisible    | Bool    | If visible to partner          |
+
+#### Status
+| Property     | Type    | Description                    |
+|--------------|---------|--------------------------------|
+| id           | String  | Unique ID                      |
+| label        | String  | Status label (e.g., "At work") |
+| emoji        | String  | Optional icon for display      |
+
+### Networking
+*No external API used yet, all data is stored locally via JSON/UserDefaults.*
+
+(If you later decide to integrate something like Firebase, you can list endpoints or Firestore paths here.)
+
+---
 
