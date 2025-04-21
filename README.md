@@ -6,8 +6,6 @@
 - [Wireframes](#wireframes)
 - [Schema](#schema)
 
----
-
 ## Overview
 
 ### Description
@@ -21,8 +19,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 - **Market:** Ideal for couples, close friends, or family members in different locations or time zones.
 - **Habit:** The app encourages consistent but low-effort engagement, forming daily habits like morning/night check-ins.
 - **Scope:** While simple at its core, it has room for expansion with features like mood updates, audio messages, or shared journals.
-
----
 
 ## Product Spec
 
@@ -43,8 +39,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 - Outfit suggestion feature for hangouts (from Fashion AI idea)
 - Interactive notifications (respond from lock screen)
 
----
-
 ### 2. Screen Archetypes
 
 - **Home Screen**
@@ -64,8 +58,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
   - [ ] Option to link with partner account
   - [ ] App setup and permissions
 
----
-
 ### 3. Navigation
 
 #### Tab Navigation (Tab to Screen)
@@ -78,8 +70,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 - Schedule → Add/Edit update
 - Partner Profile → Mood slider (stretch feature)
 
----
-
 ## Wireframes
 
 ### 📸 Hand-Drawn Wireframes
@@ -91,8 +81,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 
 ### [BONUS] Digital Wireframes & Mockups
 (Insert screenshots of your Xcode Storyboard or Figma mockups if any.)
-
----
 
 ## Schema
 
@@ -118,8 +106,4 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 
 ### Networking
 *No external API used yet, all data is stored locally via JSON/UserDefaults.*
-
-(If you later decide to integrate something like Firebase, you can list endpoints or Firestore paths here.)
-
----
 
