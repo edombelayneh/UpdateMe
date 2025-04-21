@@ -36,7 +36,6 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 - Mood slider to quickly express how the user feels
 - Audio message support (record and send)
 - Shared countdown timer to next meetup
-- Outfit suggestion feature for hangouts (from Fashion AI idea)
 - Interactive notifications (respond from lock screen)
 
 ### 2. Screen Archetypes
