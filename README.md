@@ -71,15 +71,17 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 
 ## Wireframes
 
-### 📸 Hand-Drawn Wireframes
+### 📸 Wireframes
 ![Screen Wireframe](wireframes.png)
+- You can find more wireframes in the wireframes folder
 
-### [BONUS] Digital Wireframes & Mockups
-(Insert screenshots of your Xcode Storyboard or Figma mockups if any.)
+## Demo Video
 
-## Schema
 
-*This section will be completed in Unit 9, but here's a draft to get started.*
+
+Uploading Demo Video.mp4…
+
+
 
 ### Models
 
