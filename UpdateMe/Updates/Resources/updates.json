@@ -1,0 +1,92 @@
+[
+  {
+    "message": "Good morning from Cali",
+    "emoji": "🌞",
+    "timestamp": "2025-04-13T08:15:00Z",
+    "until": "2025-04-13T12:00:00Z",
+    "imageData": null,
+    "audioData": null,
+    "id": "11111111-aaaa-4444-cccc-1234567890aa"
+  },
+  {
+    "message": "With friends",
+    "emoji": "👯",
+    "timestamp": "2025-04-12T20:45:00Z",
+    "until": "2025-04-12T23:00:00Z",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "audioData": null,
+    "id": "22222222-bbbb-4444-dddd-1234567890bb"
+  },
+  {
+    "message": "Commuting",
+    "emoji": "🚍",
+    "timestamp": "2025-04-13T07:30:00Z",
+    "until": null,
+    "imageData": null,
+    "audioData": null,
+    "id": "33333333-cccc-4444-eeee-1234567890cc"
+  },
+  {
+    "message": "Can’t talk",
+    "emoji": "❤️",
+    "timestamp": "2025-04-13T14:10:00Z",
+    "until": "2025-04-13T15:00:00Z",
+    "imageData": null,
+    "audioData": "UklGRiQAAABXQVZFZm10IBAAAAAB...",
+    "id": "44444444-dddd-4444-ffff-1234567890dd"
+  },
+  {
+    "message": "Lunch break 🍴",
+    "emoji": "🍴",
+    "timestamp": "2025-04-11T12:00:00Z",
+    "until": null,
+    "imageData": null,
+    "audioData": null,
+    "id": "55555555-eeee-4444-aaaa-1234567890ee"
+  },
+  {
+    "message": "Made it home safe!",
+    "emoji": "🏠",
+    "timestamp": "2025-04-10T21:45:00Z",
+    "until": null,
+    "imageData": null,
+    "audioData": null,
+    "id": "66666666-ffff-4444-bbbb-1234567890ff"
+  },
+  {
+    "message": "At work now",
+    "emoji": "🧑🏽‍💻",
+    "timestamp": "2025-04-10T09:00:00Z",
+    "until": "2025-04-10T17:00:00Z",
+    "imageData": null,
+    "audioData": null,
+    "id": "77777777-0000-4444-cccc-123456789000"
+  },
+  {
+    "message": "Quick check-in before dinner",
+    "emoji": "👋",
+    "timestamp": "2025-04-09T18:45:00Z",
+    "until": "2025-04-09T20:00:00Z",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "audioData": null,
+    "id": "88888888-1111-4444-dddd-123456789011"
+  },
+  {
+    "message": "Sending love before bed",
+    "emoji": "💤",
+    "timestamp": "2025-04-08T23:55:00Z",
+    "until": null,
+    "imageData": null,
+    "audioData": "UklGRiQAAABXQVZFZm10IBAAAAAB...",
+    "id": "99999999-2222-4444-eeee-123456789022"
+  },
+  {
+    "message": "Gym time!",
+    "emoji": "🏋️‍♀️",
+    "timestamp": "2025-04-08T07:00:00Z",
+    "until": "2025-04-08T08:30:00Z",
+    "imageData": null,
+    "audioData": null,
+    "id": "10101010-3333-4444-ffff-123456789033"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Morning Run",
+    "description": "Jogging around the neighborhood",
+    "startDateTime": "2025-04-18T07:00:00Z",
+    "endDateTime": "2025-04-18T08:00:00Z",
+    "status": "busy",
+    "partnerCanSee": true
+  },
+  {
+    "title": "Team Meeting",
+    "description": "Daily sync with the internship team",
+    "startDateTime": "2025-04-18T15:00:00Z",
+    "endDateTime": "2025-04-18T16:00:00Z",
+    "status": "busy",
+    "partnerCanSee": false
+  },
+  {
+    "title": "Lunch Break",
+    "description": "Time to eat and recharge",
+    "startDateTime": "2025-04-18T19:00:00Z",
+    "endDateTime": "2025-04-18T19:30:00Z",
+    "status": "open",
+    "partnerCanSee": true
+  },
+  {
+    "title": "Chill & Call",
+    "description": "Quick FaceTime with BF",
+    "startDateTime": "2025-04-18T22:00:00Z",
+    "endDateTime": "2025-04-18T22:30:00Z",
+    "status": "idle",
+    "partnerCanSee": true
+  }
+]

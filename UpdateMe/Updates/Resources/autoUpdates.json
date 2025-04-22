@@ -1,0 +1,36 @@
+[
+  {
+    "message": "Good morning 🌞",
+    "time": "8:00 AM",
+    "isOn": true,
+    "emoji": "🌞",
+    "notes": "Just woke up and getting ready for work.",
+    "frequency": [1, 2, 3, 4, 5],
+    "imageData": null,
+    "audioData": null,
+    "id": "123e4567-e89b-12d3-a456-426614174000"
+  },
+  {
+    "message": "Lunch check-in 🍴",
+    "time": "12:30 PM",
+    "isOn": false,
+    "emoji": "🍴",
+    "notes": "Having lunch with coworkers!",
+    "frequency": [1, 2, 3, 4, 5],
+    "imageData": null,
+    "audioData": null,
+    "id": "223e4567-e89b-12d3-a456-426614174001"
+  },
+  {
+    "message": "Made it home 🏠",
+    "time": "6:15 PM",
+    "isOn": true,
+    "emoji": "🏠",
+    "notes": "Home safe and sound after work.",
+    "frequency": [1, 2, 3, 4, 5],
+    "imageData": null,
+    "audioData": null,
+    "id": "323e4567-e89b-12d3-a456-426614174002"
+  }
+]
+
