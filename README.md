@@ -9,67 +9,69 @@
 ## Overview
 
 ### Description
-UpdateMe is an iOS app designed for people in long-distance relationships who want to stay connected without being glued to their phones. The app enables users to send quick one-tap status updates, schedule auto-messages (like "Good morning" or "I made it home"), and view their partner's recent check-ins—all while respecting real-world social presence.
+UpdateMe is an iOS app designed for people in long-distance relationships who want to stay connected without constantly being on their phones. It supports quick one-tap status updates, scheduled auto-messages, partner activity viewing, and customizable settings—all while respecting cultural values of presence.
 
 ### App Evaluation
 
 - **Category:** Social / Lifestyle
-- **Mobile:** This app is primarily for mobile use and is built natively using Swift, UIKit, and Storyboards.
-- **Story:** The user opens the app to quickly send an update, check their partner's recent activity, or schedule future check-ins.
-- **Market:** Ideal for couples, close friends, or family members in different locations or time zones.
-- **Habit:** The app encourages consistent but low-effort engagement, forming daily habits like morning/night check-ins.
-- **Scope:** While simple at its core, it has room for expansion with features like mood updates, audio messages, or shared journals.
+- **Mobile:** Native iOS app built with Swift, UIKit, and Storyboard
+- **Story:** Users stay emotionally connected with their partner through scheduled and quick updates
+- **Market:** For couples, friends, or family members living far apart
+- **Habit:** Encourages daily use through morning/night check-ins and real-time status updates
+- **Scope:** Scalable with features like voice notes, shared countdowns, mood sliders, and journaling
 
 ## Product Spec
 
 ### 1. User Stories
 
-#### ✅ Required Must-have Stories
-- User can schedule auto-updates (e.g., “Good morning” at 8 AM)
-- User can send one-tap status updates (e.g., “At work”)
-- User can view a feed of their recent updates
-- Partner profile displays recent updates and availability status
-- Local data is saved and persists across sessions
-- Users can create, edit, or delete custom schedules
+#### Required Must-have Stories
+- User can send one-tap quick updates (preset statuses)
+- User can write and send a custom update with text, image, note, audio, and optional expiration
+- User can schedule automated recurring updates (morning/night, etc.)
+- Partner profile shows current status and last update
+- Activity feed displays partner’s update history
+- All updates and schedules are saved locally using UserDefaults
 
-#### ⭐ Optional Nice-to-have Stories
-- Mood slider to quickly express how the user feels
-- Audio message support (record and send)
-- Shared countdown timer to next meetup
-- Interactive notifications (respond from lock screen)
+#### Optional Nice-to-have Stories
+- Audio message support
+- Mood slider with emoji
+- Shared countdown widget
+- Privacy toggles (e.g. location off)
+- Theme/dark mode selection
 
 ### 2. Screen Archetypes
 
-- **Home Screen**
-  - [x] One-tap status update buttons
-  - [x] List of recent updates
+- **Home Tab**
+  - One-tap preset status buttons
+  - Custom update form
 
-- **Schedule Screen**
-  - [x] Create/edit custom auto-updates
-  - [x] View all scheduled items
-  - [x] Enable/disable toggle for visibility
+- **Schedule Tab**
+  - Form to schedule recurring updates
+  - Edit/delete/toggle schedules
 
-- **Partner Profile**
-  - [x] View partner’s status and last update
-  - [x] Color-coded status circle (busy, idle, free)
+- **Activity Tab**
+  - Feed of recent updates from partner
+  - Full view with message, date, image, audio
 
-- **Onboarding/Welcome (future)**
-  - [ ] Option to link with partner account
-  - [ ] App setup and permissions
+- **Settings Tab**
+  - Time zone and privacy settings
+  - Partner info management
+  - Enable/disable features like location use, dark mode, backup
 
 ### 3. Navigation
 
 #### Tab Navigation (Tab to Screen)
-- Home → Home screen with status buttons
-- Schedule → Custom update scheduler
-- Profile → Partner profile view
+- Home → Quick & custom update options, partner status
+- Schedule → Create/edit/delete/update schedule list
+- Activity → View feed of partner's updates
+- Settings → Manage app preferences
 
 #### Flow Navigation (Screen to Screen)
-- Home → View detailed update history (future)
-- Schedule → Add/Edit update
-- Partner Profile → Mood slider (stretch feature)
+- Partner status → Partner detail screen (recent + next update)
+- Home → Custom update form
+- Schedule → Auto-schedule form
+- Settings → Preferences (dark mode, privacy, etc.)
 
-## Wireframes
 
 ### 📸 Wireframes
 ![Screen Wireframe](wireframes.png)
@@ -79,6 +81,7 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 
 https://github.com/user-attachments/assets/5e9e09e9-8f09-4d0f-bde5-27accd253c1e
 
+## Schema
 
 ### Models
 
@@ -88,7 +91,10 @@ https://github.com/user-attachments/assets/5e9e09e9-8f09-4d0f-bde5-27accd253c1e
 | id           | String  | Unique identifier              |
 | message      | String  | Content of update              |
 | time         | String  | Time to send the update        |
-| isAuto       | Bool    | Whether it was auto-sent       |
+| note         | String  | Optional note attached         |
+| image        | Data    | Optional image                 |
+| audio        | Data    | Optional audio file            |
+| isAuto       | Bool    | Whether the update is scheduled|
 | isVisible    | Bool    | If visible to partner          |
 
 #### Status
@@ -96,8 +102,35 @@ https://github.com/user-attachments/assets/5e9e09e9-8f09-4d0f-bde5-27accd253c1e
 |--------------|---------|--------------------------------|
 | id           | String  | Unique ID                      |
 | label        | String  | Status label (e.g., "At work") |
-| emoji        | String  | Optional icon for display      |
+| emoji        | String  | Associated emoji icon          |
 
 ### Networking
-*No external API used yet, all data is stored locally via JSON/UserDefaults.*
+
+No backend API used. All update and partner data are stored locally via JSON or `UserDefaults`.
+
+## Development Process Summary
+
+### Sprint 1: Home & Partner Tab
+- Xcode project setup (UIKit + Storyboard)
+- Created Tab Bar navigation with 4 tabs
+- Built Home screen with quick update buttons and custom form
+- Implemented local storage with UserDefaults
+- Partner profile view with live status + detail screen
+- Used mock JSON data to simulate partner updates
+
+### Sprint 2: Schedule, Activity & Settings
+- Built form for auto-scheduled messages (frequency, content)
+- Schedule list with edit/delete/toggle features
+- Activity feed using mock update data
+- Display update message, date, image, and audio
+- Fully functional Settings tab with all customization features
+
+### GitHub Note
+Development occurred locally during the 2-week sprint. GitHub was used to upload the complete and tested project after all features were finalized.
+
+
+
+
+
+
 
