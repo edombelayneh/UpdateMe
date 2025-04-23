@@ -77,8 +77,7 @@ UpdateMe is an iOS app designed for people in long-distance relationships who wa
 
 ## Demo Video
 
-![Demo Video](Demo\ Video.mp4)
-
+https://github.com/user-attachments/assets/5e9e09e9-8f09-4d0f-bde5-27accd253c1e
 
 
 ### Models
