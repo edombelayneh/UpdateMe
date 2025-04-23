@@ -112,41 +112,41 @@ No backend API used. All update and partner data are stored locally via JSON or 
 
 ### What Has Been Done
 
-[x] Project set up with 4 main tabs: Home, Schedule, Activity, Settings
+- [x] Project set up with 4 main tabs: Home, Schedule, Activity, Settings
 
-[x] Tab Bar navigation implemented using UIKit and Storyboard
+- [x] Tab Bar navigation implemented using UIKit and Storyboard
 
-[x] Home tab supports quick preset and custom updates
+- [x] Home tab supports quick preset and custom updates
 
-[x] Partner profile screen displays status and recent update
+- [x] Partner profile screen displays status and recent update
 
-[x] Partner detail screen shows last and upcoming scheduled update
+- [x] Partner detail screen shows last and upcoming scheduled update
 
-[x] Schedule tab supports auto-messages with form, edit, delete, and toggle features
+- [x] Schedule tab supports auto-messages with form, edit, delete, and toggle features
 
-[x] Activity tab displays recent partner updates with message, image, audio
+- [x] Activity tab displays recent partner updates with message, image, audio
 
-[x] Settings screen implemented with time zone, partner info, and preference toggles
+- [x] Settings screen implemented with time zone, partner info, and preference toggles
 
-[x] Used UserDefaults and mock JSON data to simulate real-time app behavior
+- [x] Used UserDefaults and mock JSON data to simulate real-time app behavior
 
-[x] Final project uploaded to GitHub
+- [x] Final project uploaded to GitHub
 
 ### To Be Done
 
-[ ] Add backend integration using frameworks like Firebase or Convex
+- [ ] Add backend integration using frameworks like Firebase or Convex
 
-[ ] Implement login and registration functionality
+- [ ] Implement login and registration functionality
 
-[ ] Make settings features fully functional (toggle effects, data persistence, etc.)
+- [ ] Make settings features fully functional (toggle effects, data persistence, etc.)
 
-[ ] Add onboarding screen for partner pairing and permissions
+- [ ] Add onboarding screen for partner pairing and permissions
 
-[ ] Improve accessibility (dynamic text sizing, VoiceOver labels)
+- [ ] Improve accessibility (dynamic text sizing, VoiceOver labels)
 
-[ ] Test across multiple devices and screen sizes for responsiveness
+- [ ] Test across multiple devices and screen sizes for responsiveness
 
-[ ] Add local notifications for reminders or scheduled update confirmations
+- [ ] Add local notifications for reminders or scheduled update confirmations
 
 ### GitHub Note
 Development occurred locally during the 2-week sprint. GitHub was used to upload the complete and tested project after all features were finalized.
