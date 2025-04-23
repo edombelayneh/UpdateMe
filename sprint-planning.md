@@ -42,11 +42,9 @@ Since there are only two weeks to complete development, the features have been g
 - Connect features using JSON or fake/mock data where applicable
 
 ### Step 4: GitHub Management
-- Each sprint is developed in its own branch (e.g., `sprint-1-home`, `sprint-2-schedule`)
-- Branches merged into `main` after each sprint is complete
-- Used GitHub Issues to track to-dos and progress
+While GitHub is recommended for version control and tracking development progress, in this case, all code and assets were developed locally during the two-week sprint period. Once the app was fully built and tested, the entire project was uploaded to GitHub as a final submission.
 
-### Step 5: Progress Update (Week 9 Submission)
+### Step 5: Progress Update
 Progress completed within the two-week development window:
 - Project set up with all 4 main tabs
 - Home tab functional with custom and quick updates saved to `UserDefaults`
