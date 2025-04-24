@@ -1,4 +1,64 @@
-# Brainstorm – Capstone App: UpdateMe
+## Brainstorm Ideas
+### Step 1: Initial App Ideas
+
+1. **UpdateMe**
+- A communication app designed for people in long-distance relationships or those who want to send consistent updates to loved ones while staying present in real life. Features include scheduled check-ins, one-tap status messages, location-triggered safety pings, and mood-sharing.
+
+3. **OutfitMe (Fashion AI Add-on)**  
+- An AI-powered outfit planning app that recommends what to wear based on weather, calendar events, and personal style. Helps users style themselves using their current wardrobe and offers virtual try-ons.
+
+4. **FaithMate**  
+- A faith-based daily devotional and prayer-tracking app for individuals and couples. Users can journal blessings, sync prayer times, and share Bible verses with each other to build spiritual connection.
+
+5. **MindMinutes**  
+- A mindfulness and self-care journal focused on 1-minute emotional check-ins. Users log how they feel, and the app generates weekly mood summaries and self-care activity suggestions.
+
+6. **StudySync**  
+- An app to coordinate virtual study sessions with friends or classmates. Features include Pomodoro timers, break syncing, shared goal setting, and group progress tracking.
+
+7. **RoomieBoard**  
+- A shared apartment management app for roommates to track chores, bills, groceries, and household events in one unified dashboard.
+
+### Step 2: Evaluation of Top 2 Ideas
+
+#### Option 1: UpdateMe
+
+- **Mobile**  
+  Uses push notifications, location triggers, and scheduled messages—key mobile features that aren’t easily replicable on a website.
+
+- **Story**  
+  The story centers on balancing real-life presence with digital connection, especially in long-distance relationships. There’s clear emotional value and resonance.
+
+- **Market**  
+  Strong niche market: long-distance couples, concerned family members, students away from home. The app has immediate relevance to a specific audience.
+
+- **Habit**  
+  Daily check-ins (morning and night), combined with one-tap updates, form a natural, lightweight habit.
+
+- **Scope**  
+  The MVP is manageable and well-defined: tabbed navigation, local storage, preset messages, and timezone-aware updates. Scalable with optional features like audio and photo updates.
+
+#### Option 2: FaithMate
+
+- **Mobile**  
+  Integrates push reminders, scripture notifications, and private audio logs. Strong mobile-based features for personal use.
+
+- **Story**  
+  Focused on helping users stay connected spiritually. Encourages reflection, journaling, and prayer. Compelling for those with active spiritual lives.
+
+- **Market**  
+  Niche audience of Christian users, especially couples or accountability partners. The user base is focused but potentially very engaged.
+
+- **Habit**  
+  Structured around daily spiritual check-ins, reminders, and shared encouragement, which are naturally habit-forming.
+
+- **Scope**  
+  MVP includes journaling, notifications, and verse sharing. Technically achievable within the course timeline with room to grow later.
+
+### Step 3: Final App Idea Selected
+
+**Final Decision: UpdateMe**  
+This idea is the most personally relevant and technically achievable. It uses mobile-first features like notifications, scheduling, and location awareness while offering emotional value for people in long-distance or high-care relationships. It also scales well with audio updates, partner feeds, and more.
 
 ## Problem Statement
 I come from a culture where it's considered rude to be on your phone in front of others while they’re talking to you. I’ve grown up being present and respectful in social settings. Because of that, I tend to stay off my phone when I’m with people—even if they’re on theirs.
